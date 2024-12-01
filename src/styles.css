@@ -1,0 +1,43 @@
+.components-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.components-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.components-container p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.components-container app-component-one,
+.components-container app-component-two,
+.components-container app-component-three,
+.components-container app-component-four {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px inset #333;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.components-container app-component-one:hover,
+.components-container app-component-two:hover,
+.components-container app-component-three:hover,
+.components-container app-component-four:hover {
+    background-color: #f0f8ff;
+    border-color: #007bff;
+    cursor: pointer;
+}
